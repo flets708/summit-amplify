@@ -125,7 +125,7 @@ export const ServerlessAlbumComponent: React.FC<Props> = (props: Props) => {
         <>
             <AppBar position="static">
                 <Toolbar>
-                    <Typography variant="h6" className={classes.AppBarTitle}>Serverless Album</Typography>
+                    <Typography variant="h6" className={classes.AppBarTitle}>Serverless Photo Album</Typography>
                     <AmplifySignOut className={classes.SignOut} button-text="Custom Text"></AmplifySignOut>
                 </Toolbar>
             </AppBar>
