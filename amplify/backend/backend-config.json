@@ -1,0 +1,24 @@
+{
+	"auth": {
+		"serverlessphotoalbume5437850": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	},
+	"predictions": {
+		"identifyLabels0afe116f": {
+			"providerPlugin": "awscloudformation",
+			"service": "Rekognition",
+			"dependsOn": [],
+			"identifyType": "identifyLabels"
+		}
+	},
+	"storage": {
+		"s3a986f4c0": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
